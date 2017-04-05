@@ -339,13 +339,13 @@
 		/* 냐 */
 		(object)["pattern" => '/하라$/', "fix" => '해라'],
 		/* 까 */
-		(object)["pattern" => '/할$/', "fix" => '해'],
-		/* 까 */
 		(object)["pattern" => '/할자$/', "fix" => '하자'],
 		/* 까 */
 		(object)["pattern" => '/할라$/', "fix" => '해라'],
 		/* 까 */
 		(object)["pattern" => '/할지 마$/', "fix" => '하지 마'],
+		/* 까 */
+		(object)["pattern" => '/할$/', "fix" => '해'],
 		/* 야돼 */
 		(object)["pattern" => '/해자$/', "fix" => '하자'],
 		/* 야돼 */
@@ -359,8 +359,6 @@
 
 		/* ..자다 */
 		/* 냐 */
-		(object)["pattern" => '/자$/', "fix" => '자'],
-		/* 냐 */
 		(object)["pattern" => '/자라$/', "fix" => '자라'],
 		/* 까 */
 		(object)["pattern" => '/잘$/', "fix" => '자'],
@@ -370,6 +368,8 @@
 		(object)["pattern" => '/잘라$/', "fix" => '자라'],
 		/* 까 */
 		(object)["pattern" => '/잘지 마$/', "fix" => '자지 마'],
+		/* 냐 */
+		(object)["pattern" => '/자$/', "fix" => '자'],
 		/* 야돼 */
 		(object)["pattern" => '/자자$/', "fix" => '자자'],
 		/* 야돼 */
@@ -383,8 +383,6 @@
 
 		/* ..짜다 */
 		/* 냐 */
-		(object)["pattern" => '/짜$/', "fix" => '짜'],
-		/* 냐 */
 		(object)["pattern" => '/짜라$/', "fix" => '짜라'],
 		/* 까 */
 		(object)["pattern" => '/짤$/', "fix" => '짜'],
@@ -394,6 +392,8 @@
 		(object)["pattern" => '/짤라$/', "fix" => '짜라'],
 		/* 까 */
 		(object)["pattern" => '/짤지 마$/', "fix" => '짜지 마'],
+		/* 냐 */
+		(object)["pattern" => '/짜$/', "fix" => '짜'],
 		/* 야돼 */
 		(object)["pattern" => '/짜자$/', "fix" => '짜자'],
 		/* 야돼 */
@@ -407,8 +407,6 @@
 
 		/* ..주다 */
 		/* 냐 */
-		(object)["pattern" => '/주$/', "fix" => '줘'],
-		/* 냐 */
 		(object)["pattern" => '/주라$/', "fix" => '줘라'],
 		/* 까 */
 		(object)["pattern" => '/줄$/', "fix" => '줘'],
@@ -418,6 +416,8 @@
 		(object)["pattern" => '/줄라$/', "fix" => '줘라'],
 		/* 까 */
 		(object)["pattern" => '/줄지 마$/', "fix" => '주지 마'],
+		/* 냐 */
+		(object)["pattern" => '/주$/', "fix" => '줘'],
 		/* 야돼 */
 		(object)["pattern" => '/줘자$/', "fix" => '주자'],
 		/* 야돼 */
@@ -431,8 +431,6 @@
 
 		/* ..놀다 */
 		/* 냐 */
-		(object)["pattern" => '/노$/', "fix" => '놀아'],
-		/* 냐 */
 		(object)["pattern" => '/노라$/', "fix" => '놀아라'],
 		/* 까 */
 		(object)["pattern" => '/놀$/', "fix" => '놀아'],
@@ -442,6 +440,8 @@
 		(object)["pattern" => '/놀아자$/', "fix" => '놀자'],
 		/* 야돼 */
 		(object)["pattern" => '/놀아지 마$/', "fix" => '놀지 마'],
+		/* 냐 */
+		(object)["pattern" => '/노$/', "fix" => '놀아'],
 		/* 야돼 */
 		(object)["pattern" => '/놀아지 말든지$/', "fix" => '놀지 말든지'],
 		/* 야겠지 */
@@ -450,8 +450,6 @@
 		(object)["pattern" => '/놀아든지$/', "fix" => '놀든지'],
 
 		/* ..먹다 */
-		/* 냐 */
-		(object)["pattern" => '/먹$/', "fix" => '먹어'],
 		/* 냐 */
 		(object)["pattern" => '/먹라$/', "fix" => '먹어라'],
 		/* 까 */
@@ -462,6 +460,8 @@
 		(object)["pattern" => '/먹을라$/', "fix" => '먹어라'],
 		/* 까 */
 		(object)["pattern" => '/먹을지 마$/', "fix" => '먹지 마'],
+		/* 냐 */
+		(object)["pattern" => '/먹$/', "fix" => '먹어'],
 		/* 야돼 */
 		(object)["pattern" => '/먹어자$/', "fix" => '먹자'],
 		/* 야돼 */
@@ -475,8 +475,6 @@
 
 		/* 쏘다 */
 		/* 냐 */
-		(object)["pattern" => '/쏘$/', "fix" => '쏴'],
-		/* 냐 */
 		(object)["pattern" => '/쏘라$/', "fix" => '쏴라'],
 		/* 까 */
 		(object)["pattern" => '/쏠$/', "fix" => '쏴'],
@@ -486,6 +484,8 @@
 		(object)["pattern" => '/쏠라$/', "fix" => '쏴라'],
 		/* 까 */
 		(object)["pattern" => '/쏠지 마$/', "fix" => '쏘지 마'],
+		/* 냐 */
+		(object)["pattern" => '/쏘$/', "fix" => '쏴'],
 		/* 야돼 */
 		(object)["pattern" => '/쏴자$/', "fix" => '쏘자'],
 		/* 야돼 */
@@ -499,8 +499,6 @@
 
 		/* ..이다 */
 		/* 냐 */
-		(object)["pattern" => '/이$/', "fix" => '여'],
-		/* 냐 */
 		(object)["pattern" => '/이라$/', "fix" => '여라'],
 		/* 까 */
 		(object)["pattern" => '/일$/', "fix" => '여'],
@@ -510,6 +508,8 @@
 		(object)["pattern" => '/일라$/', "fix" => '여라'],
 		/* 까 */
 		(object)["pattern" => '/일지 마$/', "fix" => '이지 마'],
+		/* 냐 */
+		(object)["pattern" => '/이$/', "fix" => '여'],
 		/* 야돼 */
 		(object)["pattern" => '/여자$/', "fix" => '이자'],
 		/* 야돼 */
@@ -523,17 +523,15 @@
 
 		/* ..타다 */
 		/* 까 */
-		(object)["pattern" => '/탈$/', "fix" => '타'],
-		/* 까 */
 		(object)["pattern" => '/탈자$/', "fix" => '타자'],
 		/* 까 */
 		(object)["pattern" => '/탈라$/', "fix" => '타라'],
 		/* 까 */
 		(object)["pattern" => '/탈지 마$/', "fix" => '타지 마'],
+		/* 까 */
+		(object)["pattern" => '/탈$/', "fix" => '타'],
 
 		/* ..웃다 */
-		/* 냐 */
-		(object)["pattern" => '/웃$/', "fix" => '웃어'],
 		/* 냐 */
 		(object)["pattern" => '/웃라$/', "fix" => '웃어라'],
 		/* 까 */
@@ -548,6 +546,8 @@
 		(object)["pattern" => '/웃어자$/', "fix" => '웃자'],
 		/* 야돼 */
 		(object)["pattern" => '/웃어지 마$/', "fix" => '웃지 마'],
+		/* 냐 */
+		(object)["pattern" => '/웃$/', "fix" => '웃어'],
 		/* 야돼 */
 		(object)["pattern" => '/웃어지 말든지$/', "fix" => '웃지 말든지'],
 		/* 야겠지 */
@@ -556,8 +556,6 @@
 		(object)["pattern" => '/웃어든지$/', "fix" => '웃든지'],
 
 		/* ..굴다 */
-		/* 냐 */
-		(object)["pattern" => '/구$/', "fix" => '굴어'],
 		/* 냐 */
 		(object)["pattern" => '/구라$/', "fix" => '굴어라'],
 		/* 까 */
@@ -570,6 +568,8 @@
 		(object)["pattern" => '/굴러자$/', "fix" => '굴자'],
 		/* 야돼 */
 		(object)["pattern" => '/굴러지 마$/', "fix" => '굴지 마'],
+		/* 냐 */
+		(object)["pattern" => '/구$/', "fix" => '굴어'],
 		/* 야돼 */
 		(object)["pattern" => '/굴러지 말든지$/', "fix" => '굴지 말든지'],
 		/* 야겠지 */
@@ -578,8 +578,6 @@
 		(object)["pattern" => '/굴러든지$/', "fix" => '굴든지'],
 
 		/* 울다 */
-		/* 냐 */
-		(object)["pattern" => '/(?:\s|^)우$/', "fix" => '울어'],
 		/* 냐 */
 		(object)["pattern" => '/(?:\s|^)우라$/', "fix" => '울어라'],
 		/* 까 */
@@ -590,6 +588,8 @@
 		(object)["pattern" => '/(?:\s|^)울어자$/', "fix" => '울자'],
 		/* 야돼 */
 		(object)["pattern" => '/(?:\s|^)울어지 마$/', "fix" => '울지 마'],
+		/* 냐 */
+		(object)["pattern" => '/(?:\s|^)우$/', "fix" => '울어'],
 		/* 야돼 */
 		(object)["pattern" => '/(?:\s|^)울어지 말든지$/', "fix" => '울지 말든지'],
 		/* 야겠지 */
@@ -598,8 +598,6 @@
 		(object)["pattern" => '/(?:\s|^)울어든지$/', "fix" => '울든지'],
 
 		/* ..우다 */
-		/* 냐 */
-		(object)["pattern" => '/(\S+)우$/', "fix" => '워'],
 		/* 냐 */
 		(object)["pattern" => '/(\S+)우라$/', "fix" => '워라'],
 		/* 까 */
@@ -610,6 +608,8 @@
 		(object)["pattern" => '/(\S+)울라$/', "fix" => '워라'],
 		/* 까 */
 		(object)["pattern" => '/(\S+)울지 마$/', "fix" => '우지 마'],
+		/* 냐 */
+		(object)["pattern" => '/(\S+)우$/', "fix" => '워'],
 		/* 야돼 */
 		(object)["pattern" => '/(\S+)워자$/', "fix" => '우자'],
 		/* 야돼 */
@@ -623,17 +623,15 @@
 
 		/* ..가다 */
 		/* 까 */
-		(object)["pattern" => '/갈$/', "fix" => '가'],
-		/* 까 */
 		(object)["pattern" => '/갈자$/', "fix" => '가자'],
 		/* 까 */
 		(object)["pattern" => '/갈라$/', "fix" => '가라'],
 		/* 까 */
 		(object)["pattern" => '/(갈지 마)$/', "fix" => '가지 마'],
+		/* 까 */
+		(object)["pattern" => '/갈$/', "fix" => '가'],
 
 		/* ..있다 */
-		/* 냐 */
-		(object)["pattern" => '/있$/', "fix" => '있어'],
 		/* 냐 */
 		(object)["pattern" => '/있라$/', "fix" => '있어라'],
 		/* 까 */
@@ -648,6 +646,8 @@
 		(object)["pattern" => '/있어자$/', "fix" => '있자'],
 		/* 야돼 */
 		(object)["pattern" => '/있어지 마$/', "fix" => '있지 마'],
+		/* 냐 */
+		(object)["pattern" => '/있$/', "fix" => '있어'],
 		/* 야돼 */
 		(object)["pattern" => '/있어지 말든지$/', "fix" => '있지 말든지'],
 		/* 야겠지 */
@@ -656,8 +656,6 @@
 		(object)["pattern" => '/있어든지$/', "fix" => '있든지'],
 
 		/* ..없다 */
-		/* 냐 */
-		(object)["pattern" => '/없$/', "fix" => '없어'],
 		/* 냐 */
 		(object)["pattern" => '/없라$/', "fix" => '없어라'],
 		/* 까 */
@@ -672,6 +670,8 @@
 		(object)["pattern" => '/없어자$/', "fix" => '없자'],
 		/* 야돼 */
 		(object)["pattern" => '/없어지 마$/', "fix" => '없지 마'],
+		/* 냐 */
+		(object)["pattern" => '/없$/', "fix" => '없어'],
 		/* 야돼 */
 		(object)["pattern" => '/없어지 말든지$/', "fix" => '없지 말든지'],
 		/* 야겠지 */
@@ -680,8 +680,6 @@
 		(object)["pattern" => '/없어든지$/', "fix" => '없든지'],
 
 		/* ..살다 */
-		/* 까 */
-		(object)["pattern" => '/살$/', "fix" => '살아'],
 		/* 까 */
 		(object)["pattern" => '/살자$/', "fix" => '살자'],
 		/* 까 */
@@ -692,6 +690,8 @@
 		(object)["pattern" => '/살아자$/', "fix" => '살자'],
 		/* 야돼 */
 		(object)["pattern" => '/살아지 마$/', "fix" => '살지 마'],
+		/* 까 */
+		(object)["pattern" => '/살$/', "fix" => '살아'],
 		/* 야돼 */
 		(object)["pattern" => '/살아지 말든지$/', "fix" => '살지 말든지'],
 		/* 야겠지 */
@@ -700,8 +700,6 @@
 		(object)["pattern" => '/살아든지$/', "fix" => '살든지'],
 
 		/* ..리다 */
-		/* 냐 */
-		(object)["pattern" => '/리$/', "fix" => '려'],
 		/* 냐 */
 		(object)["pattern" => '/리라$/', "fix" => '려라'],
 		/* 까 */
@@ -716,6 +714,8 @@
 		(object)["pattern" => '/려자$/', "fix" => '리자'],
 		/* 야돼 */
 		(object)["pattern" => '/려지 마$/', "fix" => '리지 마'],
+		/* 냐 */
+		(object)["pattern" => '/리$/', "fix" => '려'],
 		/* 야돼 */
 		(object)["pattern" => '/려지 말든지$/', "fix" => '리지 말든지'],
 		/* 야겠지 */
@@ -724,8 +724,6 @@
 		(object)["pattern" => '/려든지$/', "fix" => '리든지'],
 
 		/* ..죽다 */
-		/* 냐 */
-		(object)["pattern" => '/죽$/', "fix" => '죽어'],
 		/* 냐 */
 		(object)["pattern" => '/죽라$/', "fix" => '죽어라'],
 		/* 까 */
@@ -740,6 +738,8 @@
 		(object)["pattern" => '/죽어자$/', "fix" => '죽자'],
 		/* 야돼 */
 		(object)["pattern" => '/죽어지 마$/', "fix" => '죽지 마'],
+		/* 냐 */
+		(object)["pattern" => '/죽$/', "fix" => '죽어'],
 		/* 야돼 */
 		(object)["pattern" => '/죽어지 말든지$/', "fix" => '죽지 말든지'],
 		/* 야겠지 */
@@ -753,27 +753,27 @@
 		/* 냐 */
 		(object)["pattern" => '/사우라$/', "fix" => '사라'],
 		/* 까 */
-		(object)["pattern" => '/살$/', "fix" => '사'],
-		/* 까 */
 		(object)["pattern" => '/살자$/', "fix" => '사자'],
 		/* 까 */
 		(object)["pattern" => '/살라$/', "fix" => '사라'],
 		/* 까 */
 		(object)["pattern" => '/살지 마$/', "fix" => '사지 마'],
+		/* 까 */
+		(object)["pattern" => '/살$/', "fix" => '사'],
 
 		/* ..팔다 */
 		/* 냐 */
-		(object)["pattern" => '/파$/', "fix" => '팔아'],
-		/* 냐 */
 		(object)["pattern" => '/파라$/', "fix" => '팔아라'],
-		/* 까 */
-		(object)["pattern" => '/팔$/', "fix" => '팔아'],
 		/* 까 */
 		(object)["pattern" => '/팔라$/', "fix" => '팔아라'],
 		/* 야돼 */
 		(object)["pattern" => '/팔아자$/', "fix" => '팔자'],
 		/* 야돼 */
 		(object)["pattern" => '/팔아지 마$/', "fix" => '팔지 마'],
+		/* 까 */
+		(object)["pattern" => '/팔$/', "fix" => '팔아'],
+		/* 냐 */
+		(object)["pattern" => '/파$/', "fix" => '팔아'],
 		/* 야돼 */
 		(object)["pattern" => '/팔아지 말든지$/', "fix" => '팔지 말든지'],
 		/* 야겠지 */
@@ -782,8 +782,6 @@
 		(object)["pattern" => '/팔아든지$/', "fix" => '팔든지'],
 
 		/* ..보다 */
-		/* 냐 */
-		(object)["pattern" => '/보$/', "fix" => '봐'],
 		/* 냐 */
 		(object)["pattern" => '/보라$/', "fix" => '봐라'],
 		/* 까 */
@@ -794,6 +792,8 @@
 		(object)["pattern" => '/볼라$/', "fix" => '봐라'],
 		/* 까 */
 		(object)["pattern" => '/볼지 마$/', "fix" => '보지 마'],
+		/* 냐 */
+		(object)["pattern" => '/보$/', "fix" => '봐'],
 		/* 야돼 */
 		(object)["pattern" => '/봐자$/', "fix" => '보자'],
 		/* 야돼 */
@@ -806,8 +806,6 @@
 		(object)["pattern" => '/봐든지$/', "fix" => '보든지'],
 
 		/* ..듣다 */
-		/* 냐 */
-		(object)["pattern" => '/듣$/', "fix" => '들어'],
 		/* 냐 */
 		(object)["pattern" => '/듣라$/', "fix" => '들어라'],
 		/* 까 */
@@ -822,6 +820,8 @@
 		(object)["pattern" => '/들어자$/', "fix" => '듣자'],
 		/* 야돼 */
 		(object)["pattern" => '/들어지 마$/', "fix" => '듣지 마'],
+		/* 냐 */
+		(object)["pattern" => '/듣$/', "fix" => '들어'],
 		/* 야돼 */
 		(object)["pattern" => '/들어지 말든지$/', "fix" => '듣지 말든지'],
 		/* 야겠지 */
@@ -830,36 +830,35 @@
 		(object)["pattern" => '/들어든지$/', "fix" => '듣든지'],
 
 		/* ..내다 */
-		/* 냐 */
-		(object)["pattern" => '/내$/', "fix" => '내'],
+
 		/* 냐 */
 		(object)["pattern" => '/내라$/', "fix" => '내라'],
-		/* 까 */
-		(object)["pattern" => '/낼$/', "fix" => '내'],
 		/* 까 */
 		(object)["pattern" => '/낼자$/', "fix" => '내자'],
 		/* 까 */
 		(object)["pattern" => '/낼라$/', "fix" => '내라'],
 		/* 까 */
 		(object)["pattern" => '/낼지 마$/', "fix" => '내지 마'],
+		/* 냐 */
+		(object)["pattern" => '/내$/', "fix" => '내'],
+		/* 까 */
+		(object)["pattern" => '/낼$/', "fix" => '내'],
 
 		/* ..대다 */
 		/* 냐 */
-		(object)["pattern" => '/대$/', "fix" => '대'],
-		/* 냐 */
 		(object)["pattern" => '/대라$/', "fix" => '대라'],
-		/* 까 */
-		(object)["pattern" => '/댈$/', "fix" => '대'],
 		/* 까 */
 		(object)["pattern" => '/댈자$/', "fix" => '대자'],
 		/* 까 */
 		(object)["pattern" => '/댈라$/', "fix" => '대라'],
 		/* 까 */
 		(object)["pattern" => '/댈지 마$/', "fix" => '대지 마'],
+		/* 냐 */
+		(object)["pattern" => '/대$/', "fix" => '대'],
+		/* 까 */
+		(object)["pattern" => '/댈$/', "fix" => '대'],
 
 		/* ..이르다 */
-		/* 냐 */
-		(object)["pattern" => '/이르$/', "fix" => '일러'],
 		/* 냐 */
 		(object)["pattern" => '/이르라$/', "fix" => '일러라'],
 		/* 까 */
@@ -870,6 +869,8 @@
 		(object)["pattern" => '/이를라$/', "fix" => '일러라'],
 		/* 까 */
 		(object)["pattern" => '/이를지 마$/', "fix" => '이르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/이르$/', "fix" => '일러'],
 		/* 야돼 */
 		(object)["pattern" => '/일러자$/', "fix" => '이르자'],
 		/* 야돼 */
@@ -883,8 +884,6 @@
 
 		/* ..일르다 (비표준어) */
 		/* 냐 */
-		(object)["pattern" => '/일르$/', "fix" => '일러'],
-		/* 냐 */
 		(object)["pattern" => '/일르라$/', "fix" => '일러라'],
 		/* 까 */
 		(object)["pattern" => '/일를$/', "fix" => '일러'],
@@ -894,10 +893,10 @@
 		(object)["pattern" => '/일를라$/', "fix" => '일러라'],
 		/* 까 */
 		(object)["pattern" => '/일를지 마$/', "fix" => '이르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/일르$/', "fix" => '일러'],
 
 		/* ..치르다 */
-		/* 냐 */
-		(object)["pattern" => '/치르$/', "fix" => '치러'],
 		/* 냐 */
 		(object)["pattern" => '/치르라$/', "fix" => '치러라'],
 		/* 까 */
@@ -908,6 +907,8 @@
 		(object)["pattern" => '/치를라$/', "fix" => '치러라'],
 		/* 까 */
 		(object)["pattern" => '/치를지 마$/', "fix" => '치르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/치르$/', "fix" => '치러'],
 		/* 야돼 */
 		(object)["pattern" => '/치러자$/', "fix" => '치르자'],
 		/* 야돼 */
@@ -921,17 +922,17 @@
 
 		/* ..부르다 */
 		/* 냐 */
-		(object)["pattern" => '/부르$/', "fix" => '불러'],
-		/* 냐 */
 		(object)["pattern" => '/부르라$/', "fix" => '불러라'],
-		/* 까 */
-		(object)["pattern" => '/부를$/', "fix" => '불러'],
 		/* 까 */
 		(object)["pattern" => '/부를자$/', "fix" => '부르자'],
 		/* 까 */
 		(object)["pattern" => '/부를라$/', "fix" => '불러라'],
 		/* 까 */
 		(object)["pattern" => '/부를지 마$/', "fix" => '부르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/부르$/', "fix" => '불러'],
+		/* 까 */
+		(object)["pattern" => '/부를$/', "fix" => '불러'],
 		/* 야돼 */
 		(object)["pattern" => '/불러자$/', "fix" => '부르자'],
 		/* 야돼 */
@@ -945,17 +946,17 @@
 
 		/* ..구르다 */
 		/* 냐 */
-		(object)["pattern" => '/구르$/', "fix" => '굴러'],
-		/* 냐 */
 		(object)["pattern" => '/구르라$/', "fix" => '굴러라'],
-		/* 까 */
-		(object)["pattern" => '/구를$/', "fix" => '굴러'],
 		/* 까 */
 		(object)["pattern" => '/구를자$/', "fix" => '구르자'],
 		/* 까 */
 		(object)["pattern" => '/구를라$/', "fix" => '굴러라'],
 		/* 까 */
 		(object)["pattern" => '/구를지 마$/', "fix" => '구르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/구르$/', "fix" => '굴러'],
+		/* 까 */
+		(object)["pattern" => '/구를$/', "fix" => '굴러'],
 		/* 야돼 */
 		(object)["pattern" => '/굴러자$/', "fix" => '구르자'],
 		/* 야돼 */
@@ -969,17 +970,17 @@
 
 		/* ..오르다 */
 		/* 냐 */
-		(object)["pattern" => '/오르$/', "fix" => '올라'],
-		/* 냐 */
 		(object)["pattern" => '/오르라$/', "fix" => '올라라'],
-		/* 까 */
-		(object)["pattern" => '/오를$/', "fix" => '올라'],
 		/* 까 */
 		(object)["pattern" => '/오를자$/', "fix" => '오르자'],
 		/* 까 */
 		(object)["pattern" => '/오를라$/', "fix" => '올라라'],
 		/* 까 */
 		(object)["pattern" => '/오를지 마$/', "fix" => '오르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/오르$/', "fix" => '올라'],
+		/* 까 */
+		(object)["pattern" => '/오를$/', "fix" => '올라'],
 		/* 야돼 */
 		(object)["pattern" => '/올라자$/', "fix" => '오르자'],
 		/* 야돼 */
@@ -992,18 +993,17 @@
 		(object)["pattern" => '/올라든지$/', "fix" => '오르든지'],
 
 		/* 머물다 */
-		/* 냐 */
-		(object)["pattern" => '/머무$/', "fix" => '머물어'],
+
 		/* 냐 */
 		(object)["pattern" => '/머무라$/', "fix" => '머물어라'],
-		/* 까 */
-		(object)["pattern" => '/머물$/', "fix" => '머물어'],
 		/* 까 */
 		(object)["pattern" => '/머물자$/', "fix" => '머물자'],
 		/* 까 */
 		(object)["pattern" => '/머물라$/', "fix" => '머물어라'],
 		/* 까 */
 		(object)["pattern" => '/머물지 마$/', "fix" => '머물자'],
+		/* 냐 */
+		(object)["pattern" => '/머무$/', "fix" => '머물어'],
 		/* 야돼 */
 		(object)["pattern" => '/머물러지 마$/', "fix" => '머물지 마'],
 		/* 야돼 */
@@ -1012,10 +1012,10 @@
 		(object)["pattern" => '/머물러면 안 되지$/', "fix" => '머물면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/머물러든지$/', "fix" => '머물든지'],
+		/* 까 */
+		(object)["pattern" => '/머물$/', "fix" => '머물어'],
 
 		/* 머무르다 */
-		/* 냐 */
-		(object)["pattern" => '/머무르$/', "fix" => '머물러'],
 		/* 냐 */
 		(object)["pattern" => '/머무르라$/', "fix" => '머물러라'],
 		/* 까 */
@@ -1026,6 +1026,8 @@
 		(object)["pattern" => '/머무를라$/', "fix" => '머물러라'],
 		/* 까 */
 		(object)["pattern" => '/머무를지 마$/', "fix" => '머무르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/머무르$/', "fix" => '머물러'],
 		/* 야돼 */
 		(object)["pattern" => '/머물러자$/', "fix" => '머무르자'],
 		/* 야돼 */
@@ -1038,18 +1040,19 @@
 		(object)["pattern" => '/머물러든지$/', "fix" => '머무르든지'],
 
 		/* 자르다 */
-		/* 냐 */
-		(object)["pattern" => '/자르$/', "fix" => '잘라'],
+
 		/* 냐 */
 		(object)["pattern" => '/자르라$/', "fix" => '잘라라'],
-		/* 까 */
-		(object)["pattern" => '/자를$/', "fix" => '잘라'],
 		/* 까 */
 		(object)["pattern" => '/자를자$/', "fix" => '자르자'],
 		/* 까 */
 		(object)["pattern" => '/자를라$/', "fix" => '잘라라'],
 		/* 까 */
 		(object)["pattern" => '/자를지 마$/', "fix" => '자르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/자르$/', "fix" => '잘라'],
+		/* 까 */
+		(object)["pattern" => '/자를$/', "fix" => '잘라'],
 		/* 야돼 */
 		(object)["pattern" => '/잘라자$/', "fix" => '자르자'],
 		/* 야돼 */
@@ -1062,12 +1065,9 @@
 		(object)["pattern" => '/잘라든지$/', "fix" => '자르든지'],
 
 		/* 짜르다 */
-		/* 냐 */
-		(object)["pattern" => '/짜르$/', "fix" => '짤라'],
+
 		/* 냐 */
 		(object)["pattern" => '/짜르라$/', "fix" => '짤라라'],
-		/* 까 */
-		(object)["pattern" => '/짜를$/', "fix" => '짤라'],
 		/* 까 */
 		(object)["pattern" => '/짜를자$/', "fix" => '짜르자'],
 		/* 까 */
@@ -1078,6 +1078,10 @@
 		(object)["pattern" => '/짤라자$/', "fix" => '짜르자'],
 		/* 야돼 */
 		(object)["pattern" => '/짤라지 마$/', "fix" => '짜르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/짜르$/', "fix" => '짤라'],
+		/* 까 */
+		(object)["pattern" => '/짜를$/', "fix" => '짤라'],
 		/* 야돼 */
 		(object)["pattern" => '/짤라지 말든지$/', "fix" => '짜르지 말든지'],
 		/* 야겠지 */
@@ -1086,18 +1090,19 @@
 		(object)["pattern" => '/짤라든지$/', "fix" => '짜르든지'],
 
 		/* 누르다 */
-		/* 냐 */
-		(object)["pattern" => '/누르$/', "fix" => '눌러'],
+
 		/* 냐 */
 		(object)["pattern" => '/누르라$/', "fix" => '눌러라'],
-		/* 까 */
-		(object)["pattern" => '/누를$/', "fix" => '눌러'],
 		/* 까 */
 		(object)["pattern" => '/누를자$/', "fix" => '누르자'],
 		/* 까 */
 		(object)["pattern" => '/누를라$/', "fix" => '눌러라'],
 		/* 까 */
 		(object)["pattern" => '/누를지 마$/', "fix" => '누르지 마'],
+		/* 냐 */
+		(object)["pattern" => '/누르$/', "fix" => '눌러'],
+		/* 까 */
+		(object)["pattern" => '/누를$/', "fix" => '눌러'],
 		/* 야돼 */
 		(object)["pattern" => '/눌러자$/', "fix" => '누르자'],
 		/* 야돼 */
@@ -1110,8 +1115,7 @@
 		(object)["pattern" => '/눌러든지$/', "fix" => '누르든지'],
 
 		/* 꺾다 */
-		/* 냐 */
-		(object)["pattern" => '/꺾$/', "fix" => '꺾어'],
+
 		/* 냐 */
 		(object)["pattern" => '/꺾라$/', "fix" => '꺾어라'],
 		/* 까 */
@@ -1122,6 +1126,8 @@
 		(object)["pattern" => '/꺾을라$/', "fix" => '꺾어라'],
 		/* 까 */
 		(object)["pattern" => '/꺾을지 마$/', "fix" => '꺾지 마'],
+		/* 냐 */
+		(object)["pattern" => '/꺾$/', "fix" => '꺾어'],
 		/* 야돼 */
 		(object)["pattern" => '/꺾어자$/', "fix" => '꺾자'],
 		/* 야돼 */
@@ -1135,8 +1141,6 @@
 
 		/* 달다 */
 		/* 냐 */
-		(object)["pattern" => '/다$/', "fix" => '달아'],
-		/* 냐 */
 		(object)["pattern" => '/다라$/', "fix" => '달아라'],
 		/* 까 */
 		(object)["pattern" => '/달$/', "fix" => '달아'],
@@ -1148,6 +1152,8 @@
 		(object)["pattern" => '/달아자$/', "fix" => '달자'],
 		/* 야돼 */
 		(object)["pattern" => '/달아지 마$/', "fix" => '달지 마'],
+		/* 냐 */
+		(object)["pattern" => '/다$/', "fix" => '달아'],
 		/* 야돼 */
 		(object)["pattern" => '/달아지 말든지$/', "fix" => '달지 말든지'],
 		/* 야겠지 */
@@ -1156,8 +1162,6 @@
 		(object)["pattern" => '/달아든지$/', "fix" => '달든지'],
 
 		/* 심다 */
-		/* 냐 */
-		(object)["pattern" => '/심$/', "fix" => '심어'],
 		/* 냐 */
 		(object)["pattern" => '/심라$/', "fix" => '심어라'],
 		/* 까 */
@@ -1168,6 +1172,8 @@
 		(object)["pattern" => '/심을라$/', "fix" => '심어라'],
 		/* 까 */
 		(object)["pattern" => '/심을지 마$/', "fix" => '심지 마'],
+		/* 냐 */
+		(object)["pattern" => '/심$/', "fix" => '심어'],
 		/* 야돼 */
 		(object)["pattern" => '/심어자$/', "fix" => '심자'],
 		/* 야돼 */
@@ -1181,8 +1187,6 @@
 
 		/* 입다 */
 		/* 냐 */
-		(object)["pattern" => '/입$/', "fix" => '입어'],
-		/* 냐 */
 		(object)["pattern" => '/입라$/', "fix" => '입어라'],
 		/* 까 */
 		(object)["pattern" => '/입을$/', "fix" => '입어'],
@@ -1192,6 +1196,8 @@
 		(object)["pattern" => '/입을라$/', "fix" => '입어라'],
 		/* 까 */
 		(object)["pattern" => '/입을지 마$/', "fix" => '입지 마'],
+		/* 냐 */
+		(object)["pattern" => '/입$/', "fix" => '입어'],
 		/* 야돼 */
 		(object)["pattern" => '/입어자$/', "fix" => '입자'],
 		/* 야돼 */
@@ -1205,8 +1211,6 @@
 
 		/* ..치다 */
 		/* 냐 */
-		(object)["pattern" => '/치$/', "fix" => '쳐'],
-		/* 냐 */
 		(object)["pattern" => '/치라$/', "fix" => '쳐라'],
 		/* 까 */
 		(object)["pattern" => '/칠$/', "fix" => '쳐'],
@@ -1216,6 +1220,8 @@
 		(object)["pattern" => '/칠라$/', "fix" => '쳐라'],
 		/* 까 */
 		(object)["pattern" => '/칠지 마$/', "fix" => '치지 마'],
+		/* 냐 */
+		(object)["pattern" => '/치$/', "fix" => '쳐'],
 		/* 야돼 */
 		(object)["pattern" => '/쳐자$/', "fix" => '치자'],
 		/* 야돼 */
@@ -1229,17 +1235,17 @@
 
 		/* ..추다 */
 		/* 냐 */
-		(object)["pattern" => '/추$/', "fix" => '춰'],
-		/* 냐 */
 		(object)["pattern" => '/추라$/', "fix" => '춰라'],
-		/* 까 */
-		(object)["pattern" => '/출$/', "fix" => '춰'],
 		/* 까 */
 		(object)["pattern" => '/출자$/', "fix" => '추자'],
 		/* 까 */
 		(object)["pattern" => '/출라$/', "fix" => '춰라'],
 		/* 까 */
 		(object)["pattern" => '/출지 마$/', "fix" => '추지 마'],
+		/* 냐 */
+		(object)["pattern" => '/추$/', "fix" => '춰'],
+		/* 까 */
+		(object)["pattern" => '/출$/', "fix" => '춰'],
 		/* 야돼 */
 		(object)["pattern" => '/춰자$/', "fix" => '추자'],
 		/* 야돼 */
@@ -1252,8 +1258,6 @@
 		(object)["pattern" => '/춰든지$/', "fix" => '추든지'],
 
 		/* ..닫다 */
-		/* 냐 */
-		(object)["pattern" => '/닫$/', "fix" => '닫아'],
 		/* 냐 */
 		(object)["pattern" => '/닫라$/', "fix" => '닫아라'],
 		/* 까 */
@@ -1274,10 +1278,10 @@
 		(object)["pattern" => '/닫아면 안 되지$/', "fix" => '닫으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/닫아든지$/', "fix" => '닫든지'],
+		/* 냐 */
+		(object)["pattern" => '/닫$/', "fix" => '닫아'],
 
 		/* ..담다 */
-		/* 냐 */
-		(object)["pattern" => '/담$/', "fix" => '담아'],
 		/* 냐 */
 		(object)["pattern" => '/담라$/', "fix" => '담아라'],
 		/* 까 */
@@ -1298,14 +1302,12 @@
 		(object)["pattern" => '/담아면 안 되지$/', "fix" => '담으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/담아든지$/', "fix" => '담든지'],
+		/* 냐 */
+		(object)["pattern" => '/담$/', "fix" => '담아'],
 
 		/* ..그다 */
 		/* 냐 */
-		(object)["pattern" => '/그$/', "fix" => '가'],
-		/* 냐 */
 		(object)["pattern" => '/그라$/', "fix" => '가라'],
-		/* 까 */
-		(object)["pattern" => '/글$/', "fix" => '가'],
 		/* 까 */
 		(object)["pattern" => '/글자$/', "fix" => '그자'],
 		/* 까 */
@@ -1322,10 +1324,12 @@
 		(object)["pattern" => '/가면 안 되지$/', "fix" => '그면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/가든지$/', "fix" => '그든지'],
+		/* 냐 */
+		(object)["pattern" => '/그$/', "fix" => '가'],
+		/* 까 */
+		(object)["pattern" => '/글$/', "fix" => '가'],
 
 		/* ..읽다 */
-		/* 냐 */
-		(object)["pattern" => '/읽$/', "fix" => '읽어'],
 		/* 냐 */
 		(object)["pattern" => '/읽라$/', "fix" => '읽어라'],
 		/* 까 */
@@ -1346,14 +1350,11 @@
 		(object)["pattern" => '/읽어면 안 되지$/', "fix" => '읽으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/읽어든지$/', "fix" => '읽든지'],
-
+		/* 냐 */
+		(object)["pattern" => '/읽$/', "fix" => '읽어'],
 		/* ..졸다 */
 		/* 냐 */
-		(object)["pattern" => '/조$/', "fix" => '졸아'],
-		/* 냐 */
 		(object)["pattern" => '/조라$/', "fix" => '졸아라'],
-		/* 까 */
-		(object)["pattern" => '/졸$/', "fix" => '졸아'],
 		/* 까 */
 		(object)["pattern" => '/졸자$/', "fix" => '졸자'],
 		/* 까 */
@@ -1368,10 +1369,12 @@
 		(object)["pattern" => '/졸아면 안 되지$/', "fix" => '졸면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/졸아든지$/', "fix" => '졸든지'],
+		/* 냐 */
+		(object)["pattern" => '/조$/', "fix" => '졸아'],
+		/* 까 */
+		(object)["pattern" => '/졸$/', "fix" => '졸아'],
 
 		/* 건너다 */
-		/* 냐 */
-		(object)["pattern" => '/건너$/', "fix" => '건너'],
 		/* 냐 */
 		(object)["pattern" => '/건너라$/', "fix" => '건너라'],
 		/* 까 */
@@ -1392,14 +1395,12 @@
 		(object)["pattern" => '/건너면 안 되지$/', "fix" => '건너면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/건너든지$/', "fix" => '건너든지'],
+		/* 냐 */
+		(object)["pattern" => '/건너$/', "fix" => '건너'],
 
 		/* ..렇다 */
 		/* 냐 */
-		(object)["pattern" => '/렇$/', "fix" => '래'],
-		/* 냐 */
 		(object)["pattern" => '/렇라$/', "fix" => '래라'],
-		/* 까 */
-		(object)["pattern" => '/럴$/', "fix" => '래'],
 		/* 까 */
 		(object)["pattern" => '/럴자$/', "fix" => '러자'],
 		/* 까 */
@@ -1416,14 +1417,15 @@
 		(object)["pattern" => '/래면 안 되지$/', "fix" => '러면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/래든지$/', "fix" => '러든지'],
+		/* 냐 */
+		(object)["pattern" => '/렇$/', "fix" => '래'],
+		/* 까 */
+		(object)["pattern" => '/럴$/', "fix" => '래'],
 
 		/* 널다 */
-		/* 냐 */
-		(object)["pattern" => '/너$/', "fix" => '널어'],
+
 		/* 냐 */
 		(object)["pattern" => '/너라$/', "fix" => '널어라'],
-		/* 까 */
-		(object)["pattern" => '/널$/', "fix" => '널어'],
 		/* 까 */
 		(object)["pattern" => '/널자$/', "fix" => '널자'],
 		/* 까 */
@@ -1438,14 +1440,14 @@
 		(object)["pattern" => '/널어면 안 되지$/', "fix" => '널면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/널어든지$/', "fix" => '널든지'],
+		/* 냐 */
+		(object)["pattern" => '/너$/', "fix" => '널어'],
+		/* 까 */
+		(object)["pattern" => '/널$/', "fix" => '널어'],
 
 		/* 묵다 */
 		/* 냐 */
-		(object)["pattern" => '/묵너$/', "fix" => '묵어'],
-		/* 냐 */
 		(object)["pattern" => '/묵너라$/', "fix" => '묵어라'],
-		/* 까 */
-		(object)["pattern" => '/묵을$/', "fix" => '묵어'],
 		/* 까 */
 		(object)["pattern" => '/묵을자$/', "fix" => '묵어자'],
 		/* 까 */
@@ -1462,10 +1464,12 @@
 		(object)["pattern" => '/묵어면 안 되지$/', "fix" => '묵으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/묵어든지$/', "fix" => '묵든지'],
+		/* 냐 */
+		(object)["pattern" => '/묵너$/', "fix" => '묵어'],
+		/* 까 */
+		(object)["pattern" => '/묵을$/', "fix" => '묵어'],
 
 		/* ..찍다 */
-		/* 냐 */
-		(object)["pattern" => '/찍$/', "fix" => '찍어'],
 		/* 냐 */
 		(object)["pattern" => '/찍라$/', "fix" => '찍어라'],
 		/* 까 */
@@ -1486,14 +1490,12 @@
 		(object)["pattern" => '/찍어면 안 되지$/', "fix" => '찍으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/찍어든지$/', "fix" => '찍든지'],
+		/* 냐 */
+		(object)["pattern" => '/찍$/', "fix" => '찍어'],
 
 		/* ..풀다 */
 		/* 냐 */
-		(object)["pattern" => '/푸$/', "fix" => '풀어'],
-		/* 냐 */
 		(object)["pattern" => '/푸라$/', "fix" => '풀어라'],
-		/* 까 */
-		(object)["pattern" => '/풀$/', "fix" => '풀어'],
 		/* 까 */
 		(object)["pattern" => '/풀자$/', "fix" => '풀자'],
 		/* 까 */
@@ -1508,10 +1510,12 @@
 		(object)["pattern" => '/풀어면 안 되지$/', "fix" => '풀면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/풀어든지$/', "fix" => '풀든지'],
+		/* 냐 */
+		(object)["pattern" => '/푸$/', "fix" => '풀어'],
+		/* 까 */
+		(object)["pattern" => '/풀$/', "fix" => '풀어'],
 
 		/* ..묶다 */
-		/* 냐 */
-		(object)["pattern" => '/묶$/', "fix" => '묶어'],
 		/* 냐 */
 		(object)["pattern" => '/묶라$/', "fix" => '묶어라'],
 		/* 까 */
@@ -1532,14 +1536,12 @@
 		(object)["pattern" => '/묶어면 안 되지$/', "fix" => '묶으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/묶어든지$/', "fix" => '묶든지'],
+		/* 냐 */
+		(object)["pattern" => '/묶$/', "fix" => '묶어'],
 
 		/* ..쓰다 */
 		/* 냐 */
-		(object)["pattern" => '/쓰$/', "fix" => '써'],
-		/* 냐 */
 		(object)["pattern" => '/쓰라$/', "fix" => '써라'],
-		/* 까 */
-		(object)["pattern" => '/쓸$/', "fix" => '써'],
 		/* 까 */
 		(object)["pattern" => '/쓸자$/', "fix" => '쓰자'],
 		/* 까 */
@@ -1556,20 +1558,22 @@
 		(object)["pattern" => '/써면 안 되지$/', "fix" => '쓰면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/써든지$/', "fix" => '쓰든지'],
+		/* 냐 */
+		(object)["pattern" => '/쓰$/', "fix" => '써'],
+		/* 까 */
+		(object)["pattern" => '/쓸$/', "fix" => '써'],
 
 		/* ..싸다 */
-		/* 까 */
-		(object)["pattern" => '/쌀$/', "fix" => '싸'],
 		/* 까 */
 		(object)["pattern" => '/쌀자$/', "fix" => '싸자'],
 		/* 까 */
 		(object)["pattern" => '/쌀라$/', "fix" => '싸라'],
 		/* 까 */
 		(object)["pattern" => '/쌀지 마$/', "fix" => '싸지 마'],
+		/* 까 */
+		(object)["pattern" => '/쌀$/', "fix" => '싸'],
 
 		/* ..맞다 */
-		/* 냐 */
-		(object)["pattern" => '/맞$/', "fix" => '맞아'],
 		/* 냐 */
 		(object)["pattern" => '/맞라$/', "fix" => '맞아라'],
 		/* 까 */
@@ -1590,14 +1594,12 @@
 		(object)["pattern" => '/맞아면 안 되지$/', "fix" => '맞으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/맞아든지$/', "fix" => '맞든지'],
+		/* 냐 */
+		(object)["pattern" => '/맞$/', "fix" => '맞아'],
 
 		/* ..기다 */
 		/* 냐 */
-		(object)["pattern" => '/기$/', "fix" => '겨'],
-		/* 냐 */
 		(object)["pattern" => '/기라$/', "fix" => '겨라'],
-		/* 까 */
-		(object)["pattern" => '/길$/', "fix" => '겨'],
 		/* 까 */
 		(object)["pattern" => '/길자$/', "fix" => '기자'],
 		/* 까 */
@@ -1614,14 +1616,14 @@
 		(object)["pattern" => '/겨면 안 되지$/', "fix" => '기면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/겨든지$/', "fix" => '기든지'],
+		/* 냐 */
+		(object)["pattern" => '/기$/', "fix" => '겨'],
+		/* 까 */
+		(object)["pattern" => '/길$/', "fix" => '겨'],
 
 		/* ..지다 */
 		/* 냐 */
-		(object)["pattern" => '/지$/', "fix" => '져'],
-		/* 냐 */
 		(object)["pattern" => '/지라$/', "fix" => '져라'],
-		/* 까 */
-		(object)["pattern" => '/질$/', "fix" => '져'],
 		/* 까 */
 		(object)["pattern" => '/질자$/', "fix" => '지자'],
 		/* 까 */
@@ -1638,14 +1640,14 @@
 		(object)["pattern" => '/져면 안 되지$/', "fix" => '지면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/져든지$/', "fix" => '지든지'],
+		/* 냐 */
+		(object)["pattern" => '/지$/', "fix" => '져'],
+		/* 까 */
+		(object)["pattern" => '/질$/', "fix" => '져'],
 
 		/* ..시다 */
 		/* 냐 */
-		(object)["pattern" => '/시$/', "fix" => '셔'],
-		/* 냐 */
 		(object)["pattern" => '/시라$/', "fix" => '셔라'],
-		/* 까 */
-		(object)["pattern" => '/실$/', "fix" => '셔'],
 		/* 까 */
 		(object)["pattern" => '/실자$/', "fix" => '시자'],
 		/* 까 */
@@ -1662,14 +1664,14 @@
 		(object)["pattern" => '/셔면 안 되지$/', "fix" => '시면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/셔든지$/', "fix" => '시든지'],
+		/* 냐 */
+		(object)["pattern" => '/시$/', "fix" => '셔'],
+		/* 까 */
+		(object)["pattern" => '/실$/', "fix" => '셔'],
 
 		/* ..수다 */
 		/* 냐 */
-		(object)["pattern" => '/수$/', "fix" => '숴'],
-		/* 냐 */
 		(object)["pattern" => '/수라$/', "fix" => '숴라'],
-		/* 까 */
-		(object)["pattern" => '/술$/', "fix" => '숴'],
 		/* 까 */
 		(object)["pattern" => '/술자$/', "fix" => '수자'],
 		/* 까 */
@@ -1686,14 +1688,14 @@
 		(object)["pattern" => '/숴면 안 되지$/', "fix" => '수면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/숴든지$/', "fix" => '수든지'],
+		/* 냐 */
+		(object)["pattern" => '/수$/', "fix" => '숴'],
+		/* 까 */
+		(object)["pattern" => '/술$/', "fix" => '숴'],
 
 		/* ..들다 */
 		/* 냐 */
-		(object)["pattern" => '/드$/', "fix" => '들어'],
-		/* 냐 */
 		(object)["pattern" => '/드라$/', "fix" => '들어라'],
-		/* 까 */
-		(object)["pattern" => '/들$/', "fix" => '들어'],
 		/* 까 */
 		(object)["pattern" => '/들자$/', "fix" => '들자'],
 		/* 까 */
@@ -1710,24 +1712,25 @@
 		(object)["pattern" => '/들어면 안 되지$/', "fix" => '들면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/들어든지$/', "fix" => '들든지'],
+		/* 냐 */
+		(object)["pattern" => '/드$/', "fix" => '들어'],
+		/* 까 */
+		(object)["pattern" => '/들$/', "fix" => '들어'],
 
 		/* ..나다 */
-		/* 까 */
-		(object)["pattern" => '/날$/', "fix" => '나'],
 		/* 까 */
 		(object)["pattern" => '/날자$/', "fix" => '나자'],
 		/* 까 */
 		(object)["pattern" => '/날라$/', "fix" => '나라'],
 		/* 까 */
 		(object)["pattern" => '/날지 마$/', "fix" => '나지 마'],
+		/* 까 */
+		(object)["pattern" => '/날$/', "fix" => '나'],
 
 		/* ..오다 */
-		/* 냐 */
-		(object)["pattern" => '/오$/', "fix" => '와'],
+
 		/* 냐 */
 		(object)["pattern" => '/오라$/', "fix" => '와라'],
-		/* 까 */
-		(object)["pattern" => '/올$/', "fix" => '와'],
 		/* 까 */
 		(object)["pattern" => '/올자$/', "fix" => '오자'],
 		/* 까 */
@@ -1744,14 +1747,14 @@
 		(object)["pattern" => '/와면 안 되지$/', "fix" => '오면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/와든지$/', "fix" => '오든지'],
+		/* 냐 */
+		(object)["pattern" => '/오$/', "fix" => '와'],
+		/* 까 */
+		(object)["pattern" => '/올$/', "fix" => '와'],
 
 		/* ..히다 */
 		/* 냐 */
-		(object)["pattern" => '/히$/', "fix" => '혀'],
-		/* 냐 */
 		(object)["pattern" => '/히라$/', "fix" => '혀라'],
-		/* 까 */
-		(object)["pattern" => '/힐$/', "fix" => '혀'],
 		/* 까 */
 		(object)["pattern" => '/힐자$/', "fix" => '히자'],
 		/* 까 */
@@ -1768,14 +1771,14 @@
 		(object)["pattern" => '/혀면 안 되지$/', "fix" => '히면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/혀든지$/', "fix" => '히든지'],
+		/* 냐 */
+		(object)["pattern" => '/히$/', "fix" => '혀'],
+		/* 까 */
+		(object)["pattern" => '/힐$/', "fix" => '혀'],
 
 		/* ..키다 */
 		/* 냐 */
-		(object)["pattern" => '/키$/', "fix" => '켜'],
-		/* 냐 */
 		(object)["pattern" => '/키라$/', "fix" => '켜라'],
-		/* 까 */
-		(object)["pattern" => '/킬$/', "fix" => '켜'],
 		/* 까 */
 		(object)["pattern" => '/킬자$/', "fix" => '키자'],
 		/* 까 */
@@ -1792,14 +1795,14 @@
 		(object)["pattern" => '/켜면 안 되지$/', "fix" => '키면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/켜든지$/', "fix" => '키든지'],
+		/* 냐 */
+		(object)["pattern" => '/키$/', "fix" => '켜'],
+		/* 까 */
+		(object)["pattern" => '/킬$/', "fix" => '켜'],
 
 		/* ..빌다 */
 		/* 냐 */
-		(object)["pattern" => '/비$/', "fix" => '빌어'],
-		/* 냐 */
 		(object)["pattern" => '/비라$/', "fix" => '빌어라'],
-		/* 까 */
-		(object)["pattern" => '/빌$/', "fix" => '빌어'],
 		/* 까 */
 		(object)["pattern" => '/빌자$/', "fix" => '빌자'],
 		/* 까 */
@@ -1814,14 +1817,14 @@
 		(object)["pattern" => '/빌어면 안 되지$/', "fix" => '빌면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/빌어든지$/', "fix" => '빌든지'],
+		/* 냐 */
+		(object)["pattern" => '/비$/', "fix" => '빌어'],
+		/* 까 */
+		(object)["pattern" => '/빌$/', "fix" => '빌어'],
 
 		/* ..찌다 */
 		/* 냐 */
-		(object)["pattern" => '/찌$/', "fix" => '쪄'],
-		/* 냐 */
 		(object)["pattern" => '/찌라$/', "fix" => '쪄라'],
-		/* 까 */
-		(object)["pattern" => '/찔$/', "fix" => '쪄'],
 		/* 까 */
 		(object)["pattern" => '/찔자$/', "fix" => '찌자'],
 		/* 까 */
@@ -1838,24 +1841,24 @@
 		(object)["pattern" => '/쪄면 안 되지$/', "fix" => '찌면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/쪄든지$/', "fix" => '찌든지'],
+		/* 냐 */
+		(object)["pattern" => '/찌$/', "fix" => '쪄'],
+		/* 까 */
+		(object)["pattern" => '/찔$/', "fix" => '쪄'],
 
 		/* ..차다 */
-		/* 까 */
-		(object)["pattern" => '/찰$/', "fix" => '차'],
 		/* 까 */
 		(object)["pattern" => '/찰자$/', "fix" => '차자'],
 		/* 까 */
 		(object)["pattern" => '/찰라$/', "fix" => '차라'],
 		/* 까 */
 		(object)["pattern" => '/찰지 마$/', "fix" => '차지 마'],
+		/* 까 */
+		(object)["pattern" => '/찰$/', "fix" => '차'],
 
 		/* ..쉬다 */
 		/* 냐 */
-		(object)["pattern" => '/쉬$/', "fix" => '쉬어'],
-		/* 냐 */
 		(object)["pattern" => '/쉬라$/', "fix" => '쉬어라'],
-		/* 까 */
-		(object)["pattern" => '/쉴$/', "fix" => '쉬어'],
 		/* 까 */
 		(object)["pattern" => '/쉴자$/', "fix" => '쉬자'],
 		/* 까 */
@@ -1872,24 +1875,24 @@
 		(object)["pattern" => '/쥐어면 안 되지$/', "fix" => '쉬면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/쥐어든지$/', "fix" => '쉬든지'],
+		/* 냐 */
+		(object)["pattern" => '/쉬$/', "fix" => '쉬어'],
+		/* 까 */
+		(object)["pattern" => '/쉴$/', "fix" => '쉬어'],
 
 		/* ..빼다 */
-		/* 까 */
-		(object)["pattern" => '/뺄$/', "fix" => '빼'],
 		/* 까 */
 		(object)["pattern" => '/뺄자$/', "fix" => '빼자'],
 		/* 까 */
 		(object)["pattern" => '/뺄라$/', "fix" => '빼라'],
 		/* 까 */
 		(object)["pattern" => '/뺄지 마$/', "fix" => '빼지 마'],
+		/* 까 */
+		(object)["pattern" => '/뺄$/', "fix" => '빼'],
 
 		/* ..누다 */
 		/* 냐 */
-		(object)["pattern" => '/누$/', "fix" => '눠'],
-		/* 냐 */
 		(object)["pattern" => '/누라$/', "fix" => '눠라'],
-		/* 까 */
-		(object)["pattern" => '/눌$/', "fix" => '눠'],
 		/* 까 */
 		(object)["pattern" => '/눌자$/', "fix" => '누자'],
 		/* 까 */
@@ -1906,14 +1909,14 @@
 		(object)["pattern" => '/눠면 안 되지$/', "fix" => '누면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/눠든지$/', "fix" => '누든지'],
+		/* 냐 */
+		(object)["pattern" => '/누$/', "fix" => '눠'],
+		/* 까 */
+		(object)["pattern" => '/눌$/', "fix" => '눠'],
 
 		/* ..으다 */
 		/* 냐 */
-		(object)["pattern" => '/으$/', "fix" => '아'],
-		/* 냐 */
 		(object)["pattern" => '/으라$/', "fix" => '아라'],
-		/* 까 */
-		(object)["pattern" => '/을$/', "fix" => '아'],
 		/* 까 */
 		(object)["pattern" => '/을자$/', "fix" => '으자'],
 		/* 까 */
@@ -1930,10 +1933,12 @@
 		(object)["pattern" => '/아면 안 되지$/', "fix" => '으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/아든지$/', "fix" => '으든지'],
+		/* 냐 */
+		(object)["pattern" => '/으$/', "fix" => '아'],
+		/* 까 */
+		(object)["pattern" => '/을$/', "fix" => '아'],
 
 		/* ..넣다 */
-		/* 냐 */
-		(object)["pattern" => '/넣$/', "fix" => '넣어'],
 		/* 냐 */
 		(object)["pattern" => '/넣라$/', "fix" => '넣어라'],
 		/* 까 */
@@ -1954,10 +1959,10 @@
 		(object)["pattern" => '/넣어면 안 되지$/', "fix" => '넣으면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/넣어든지$/', "fix" => '넣든지'],
+		/* 냐 */
+		(object)["pattern" => '/넣$/', "fix" => '넣어'],
 
 		/* ..눕다 */
-		/* 냐 */
-		(object)["pattern" => '/눕$/', "fix" => '누워'],
 		/* 냐 */
 		(object)["pattern" => '/눕라$/', "fix" => '누워라'],
 		/* 까 */
@@ -1978,10 +1983,10 @@
 		(object)["pattern" => '/누워면 안 되지$/', "fix" => '누우면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/누워든지$/', "fix" => '눕든지'],
+		/* 냐 */
+		(object)["pattern" => '/눕$/', "fix" => '누워'],
 
 		/* ..피다 */
-		/* 냐 */
-		(object)["pattern" => '/피$/', "fix" => '펴'],
 		/* 냐 */
 		(object)["pattern" => '/피라$/', "fix" => '펴라'],
 		/* 까 */
@@ -2002,14 +2007,12 @@
 		(object)["pattern" => '/피워면 안 되지$/', "fix" => '피면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/피워든지$/', "fix" => '피든지'],
+		/* 냐 */
+		(object)["pattern" => '/피$/', "fix" => '펴'],
 
 		/* ..끄다 */
 		/* 냐 */
-		(object)["pattern" => '/끄$/', "fix" => '꺼'],
-		/* 냐 */
 		(object)["pattern" => '/끄라$/', "fix" => '꺼라'],
-		/* 까 */
-		(object)["pattern" => '/끌$/', "fix" => '꺼'],
 		/* 까 */
 		(object)["pattern" => '/끌자$/', "fix" => '끄자'],
 		/* 까 */
@@ -2026,84 +2029,84 @@
 		(object)["pattern" => '/꺼면 안 되지$/', "fix" => '끄면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/꺼든지$/', "fix" => '끄든지'],
+		/* 냐 */
+		(object)["pattern" => '/끄$/', "fix" => '꺼'],
+		/* 까 */
+		(object)["pattern" => '/끌$/', "fix" => '꺼'],
 
 		/* ..애다 */
 		/* 냐 */
-		(object)["pattern" => '/애$/', "fix" => '애'],
-		/* 냐 */
 		(object)["pattern" => '/애라$/', "fix" => '애라'],
-		/* 까 */
-		(object)["pattern" => '/앨$/', "fix" => '애'],
 		/* 까 */
 		(object)["pattern" => '/앨자$/', "fix" => '애자'],
 		/* 까 */
 		(object)["pattern" => '/앨라$/', "fix" => '애라'],
 		/* 까 */
 		(object)["pattern" => '/앨지 마$/', "fix" => '애지 마'],
+		/* 냐 */
+		(object)["pattern" => '/애$/', "fix" => '애'],
+		/* 까 */
+		(object)["pattern" => '/앨$/', "fix" => '애'],
 
 		/* ..매다 */
 		/* 냐 */
-		(object)["pattern" => '/매$/', "fix" => '매'],
-		/* 냐 */
 		(object)["pattern" => '/매라$/', "fix" => '매라'],
-		/* 까 */
-		(object)["pattern" => '/맬$/', "fix" => '매'],
 		/* 까 */
 		(object)["pattern" => '/맬자$/', "fix" => '매자'],
 		/* 까 */
 		(object)["pattern" => '/맬라$/', "fix" => '매라'],
 		/* 까 */
 		(object)["pattern" => '/맬지 마$/', "fix" => '매지 마'],
+		/* 냐 */
+		(object)["pattern" => '/매$/', "fix" => '매'],
+		/* 까 */
+		(object)["pattern" => '/맬$/', "fix" => '매'],
 
 		/* ..캐다 */
 		/* 냐 */
-		(object)["pattern" => '/캐$/', "fix" => '캐'],
-		/* 냐 */
 		(object)["pattern" => '/캐라$/', "fix" => '캐라'],
-		/* 까 */
-		(object)["pattern" => '/캘$/', "fix" => '캐'],
 		/* 까 */
 		(object)["pattern" => '/캘자$/', "fix" => '캐자'],
 		/* 까 */
 		(object)["pattern" => '/캘라$/', "fix" => '캐라'],
 		/* 까 */
 		(object)["pattern" => '/캘지 마$/', "fix" => '캐지 마'],
+		/* 냐 */
+		(object)["pattern" => '/캐$/', "fix" => '캐'],
+		/* 까 */
+		(object)["pattern" => '/캘$/', "fix" => '캐'],
 
 		/* ..메다 */
 		/* 냐 */
-		(object)["pattern" => '/메$/', "fix" => '메'],
-		/* 냐 */
 		(object)["pattern" => '/메라$/', "fix" => '메라'],
-		/* 까 */
-		(object)["pattern" => '/멜$/', "fix" => '메'],
 		/* 까 */
 		(object)["pattern" => '/멜자$/', "fix" => '메자'],
 		/* 까 */
 		(object)["pattern" => '/멜라$/', "fix" => '메라'],
 		/* 까 */
 		(object)["pattern" => '/멜지 마$/', "fix" => '메지 마'],
+		/* 냐 */
+		(object)["pattern" => '/메$/', "fix" => '메'],
+		/* 까 */
+		(object)["pattern" => '/멜$/', "fix" => '메'],
 
 		/* ..베다 */
 		/* 냐 */
-		(object)["pattern" => '/베$/', "fix" => '베'],
-		/* 냐 */
 		(object)["pattern" => '/베라$/', "fix" => '베라'],
-		/* 까 */
-		(object)["pattern" => '/벨$/', "fix" => '베'],
 		/* 까 */
 		(object)["pattern" => '/벨자$/', "fix" => '베자'],
 		/* 까 */
 		(object)["pattern" => '/벨라$/', "fix" => '베라'],
 		/* 까 */
 		(object)["pattern" => '/벨지 마$/', "fix" => '베지 마'],
+		/* 냐 */
+		(object)["pattern" => '/베$/', "fix" => '베'],
+		/* 까 */
+		(object)["pattern" => '/벨$/', "fix" => '베'],
 
 		/* ..열다 */
 		/* 냐 */
-		(object)["pattern" => '/여$/', "fix" => '열어'],
-		/* 냐 */
 		(object)["pattern" => '/여라$/', "fix" => '열어라'],
-		/* 까 */
-		(object)["pattern" => '/열$/', "fix" => '열어'],
 		/* 까 */
 		(object)["pattern" => '/열자$/', "fix" => '열자'],
 		/* 까 */
@@ -2118,28 +2121,28 @@
 		(object)["pattern" => '/열어면 안 되지$/', "fix" => '열면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/열어든지$/', "fix" => '열든지'],
+		/* 냐 */
+		(object)["pattern" => '/여$/', "fix" => '열어'],
+		/* 까 */
+		(object)["pattern" => '/열$/', "fix" => '열어'],
 
 		/* ..켜다 */
 		/* 냐 */
-		(object)["pattern" => '/켜$/', "fix" => '켜'],
-		/* 냐 */
 		(object)["pattern" => '/켜라$/', "fix" => '켜라'],
-		/* 까 */
-		(object)["pattern" => '/켤$/', "fix" => '켜'],
 		/* 까 */
 		(object)["pattern" => '/켤자$/', "fix" => '켜자'],
 		/* 까 */
 		(object)["pattern" => '/켤라$/', "fix" => '켜라'],
 		/* 까 */
 		(object)["pattern" => '/켤지 마$/', "fix" => '켜지 마'],
+		/* 냐 */
+		(object)["pattern" => '/켜$/', "fix" => '켜'],
+		/* 까 */
+		(object)["pattern" => '/켤$/', "fix" => '켜'],
 
 		/* ..꾸다 */
 		/* 냐 */
-		(object)["pattern" => '/꾸$/', "fix" => '꿔'],
-		/* 냐 */
 		(object)["pattern" => '/꾸라$/', "fix" => '꿔라'],
-		/* 까 */
-		(object)["pattern" => '/꿀$/', "fix" => '꿔'],
 		/* 까 */
 		(object)["pattern" => '/꿀자$/', "fix" => '꾸자'],
 		/* 까 */
@@ -2156,14 +2159,14 @@
 		(object)["pattern" => '/꿔면 안 되지$/', "fix" => '꾸면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/꿔든지$/', "fix" => '꾸든지'],
+		/* 냐 */
+		(object)["pattern" => '/꾸$/', "fix" => '꿔'],
+		/* 까 */
+		(object)["pattern" => '/꿀$/', "fix" => '꿔'],
 
 		/* ..말다 */
 		/* 냐 */
-		// (object)["pattern" => '/마$/', "fix" => '말아'],
-		/* 냐 */
 		(object)["pattern" => '/마라$/', "fix" => '말아라'],
-		/* 까 */
-		(object)["pattern" => '/말$/', "fix" => '말아'],
 		/* 까 */
 		(object)["pattern" => '/말라$/', "fix" => '말아라'],
 		/* 야돼 */
@@ -2176,12 +2179,16 @@
 		(object)["pattern" => '/말아면 안 되지$/', "fix" => '말면 안 되지'],
 		/* 도 */
 		(object)["pattern" => '/말아든지$/', "fix" => '말든지'],
+		/* 냐 */
+		(object)["pattern" => '/마$/', "fix" => '말아'],
+		/* 까 */
+		(object)["pattern" => '/말$/', "fix" => '말아'],
 	];
 
 	$loop = Factory::create();
 
 	$client = new RealTimeClient($loop);
-	$client->setToken("xoxb-163919590080-nSkCgxA3vyhWSqFkIqg2HSpP");
+	$client->setToken("xoxb-163919590080-plAqtSE8cqYWTvWUc804s3Ev");
 
 	$client->connect()
 		   ->then(function () use ($client)
