@@ -1,0 +1,13 @@
+{
+    "name": "root/mrdecisionbot",
+    "authors": [
+        {
+            "name": "Fil",
+            "email": "finaleaf@gmail.com"
+        }
+    ],
+    "require": {
+        "coderstephen/slack-client": "^0.2.5"
+    },
+    "minimum-stability": "dev"
+}
