@@ -446,7 +446,7 @@
         },
         "time": "2016-12-27 08:12:19",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "React\\Promise\\Timer\\": "src/"
@@ -541,7 +541,7 @@
         },
         "time": "2016-02-25 18:17:16",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "React\\Cache\\": "src\\"
@@ -584,7 +584,7 @@
         },
         "time": "2017-03-31 16:21:48",
         "type": "library",
-        "installation-source": "source",
+        "installation-source": "dist",
         "autoload": {
             "psr-4": {
                 "React\\Dns\\": "src"
