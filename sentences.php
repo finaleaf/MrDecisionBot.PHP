@@ -628,7 +628,7 @@
 		/* 까 */
 		(object)["pattern" => '/갈라$/', "fix" => '가라'],
 		/* 까 */
-		(object)["pattern" => '/(갈지 마)$/', "fix" => '가지 마'],
+		(object)["pattern" => '/갈지 마$/', "fix" => '가지 마'],
 		/* 까 */
 		(object)["pattern" => '/갈$/', "fix" => '가'],
 
@@ -2185,5 +2185,3 @@
 		/* 까 */
 		(object)["pattern" => '/말$/', "fix" => '말아'],
 	];
-
-	$token = "xoxb-...";
