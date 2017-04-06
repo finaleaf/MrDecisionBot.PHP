@@ -116,7 +116,7 @@
 					}
 					else
 					{
-						return ($this->keywordList[$i]->behavior)();
+						return $this->{($this->keywordList[$i]->behavior)}();
 					}
 
 				}
